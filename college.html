@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMTEC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+<link rel="styleshhet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+  <!-------- header-------->
+ <section class="header">
+  <nav>
+    <a href="college.html"><img src="Untitled__7_-removebg-preview.png"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times"onclick="hideMenu()"></i>
+    <ul>
+        <li> <a href="">HOME</a></li>
+        <li> <a href="">ABOUT</a></li>
+        <li> <a href="">COURSES</a></li>
+        <li> <a href="">BLOG</a></li>
+        <li> <a href="">CONTACT</a></li>
+    </ul>
+    </div>
+    <i class="fa fa-bars"onclick="showMenu()"></i>
+  </nav>
+  <div class="text-box">
+    <h1> The Best Engineering college</h1>
+    <p>why I say our college is best engineering college because our college 
+      received<br>
+      a four star rating and also receive a award of best college.
+    </p>
+    <a href="" class="smtec">Visit Us To Know More</a>
+  </div>
+</section>
+<!--------course------>
+ <section class="course">
+  <h1>Courses We Offer</h1>
+  <p>We offer a diverse range of courses designed to enhance your professional skills and knowledge, catering to various industries and career paths.</p>
+  <center>
+  <div class="row">
+    <div class="course-col box 1">
+     <h3>CSE</h3>
+     <p> The deoartment of computer science and engineering (CSE) is a vital academic unit
+       within educational institutions,dedicated to professional skills.</p>
+    </div>
+    <div class="course-col box 2">
+      <h3>ECE</h3>
+      <p>The ECE department is Electronics and communication engineering is a excellence in 
+        teaching,research,and development and professional skills.</p>
+    </div>
+    <div class="course-col box 3">
+      <h3>EEE</h3>
+      <p>The department of Electrical and Electronic Engineering (EEE) is academic unit that focuses on the study,
+        research and in the elctronics and automation.</p>
+  </div>
+  <div class="course-col box 4">
+    <h3>MECH</h3>
+    <p>
+      The department of mechanial engineering is a cornerstone academic unit mechanics,passionate mechanial
+      thermodynamics,and (ME) is hands-onexperience. </p>
+  </div>
+  <div class="course-col box 5">
+    <h3>AI/DS</h3>
+    <p> The department of Artifical Intelligence (AI/DS) focuses on training students AI technologies 
+        data analytics through hands-on learning and research</p>
+  </div> 
+  </div>
+</center>
+ </section>
+<!----------Labs------->
+ <section class="lab">
+ <h1>Our Applied Labs </h1> <br><h2>We have 9 Applied Labs</h2>
+ <p>We offer a diverse range of courses designed to enhance your professional skills and knowledge, hands-on experience various industries and career paths.</p>
+ <hr>
+ </section>
+ <center>
+  <div class="row">
+    <div class="lab-col">
+    <img src="idea.jpg">
+    <h2>Ideathon</h2>
+  </div>
+  <div class="lab-cal">
+    <img src="MW.jpg">
+    <h2>Mobile & Web development</h2>
+  </div>
+  <div class="lab-cal">
+    <img src="AIDS.jpg">
+    <h2>AI & DS</h2>
+  </div>
+  <br>
+    <div class="lab-col">
+    <img src="SE.jpg">
+    <h2>Smart Electronics</h2>
+  </div>
+  <div class="lab-col">
+    <img src="EPD.jpg">
+    <h2>Electrical Product development </h2>
+  </div>
+  <div class="lab-col">
+    <img src="IOT.jpg">
+    <h2>Embedded & IoT</h2>
+  </div>
+    <div class="lab-col">
+    <img src="EA.jpg">
+    <h2>Electrical Drivers & Automation</h2>
+  </div>
+  <div class="lab-col">
+    <img src="DF.jpg">
+    <h2>Design & Fabrication</h2>
+  </div>
+  <div class="lab-col">
+    <img src="PM.jpg">
+    <h2>Prototype & Modeling</h2>
+  </div>
+  </div>
+</center>
+<center>
+<!--------- testimonials--->
+<br>
+<section class="testimonials">
+  <h1>What Our Students Says</h1>
+  <br>
+  <p>our students are successful in carrier and professional life, connecting students with real-world opportunities</p>
+  <div class="row">
+    <div class="testimonial-col">
+     <img src="girl user.png">
+     <div>
+     <h3>Ms. Archana</h3>
+      <p>SMTEC my clg provided me a good education <br>and good placement 
+        for me thankyou so much
+      for gave me a bright future</p>
+    </div>
+    </div>
+      <div class="testimonial-col">
+        <img src="user.png"> 
+        <div>
+        <h3>Mr. Vel Murugan</h3>
+         <p>I placed a Kanini Software solutions from chennai and im really happy because our college<br> gave to me correct path.
+         </p>
+        </div>
+        </div>
+      </div>
+ </section>
+</center>
+<!---------call to action--->
+<br>
+<br>
+<center>
+<section class="cta">
+<h1>Enroll for your bright Future!</h1>
+<br>
+<br>
+<a href=""class="hero-btn"> Contact Us </a>
+</section>
+</center>
+<!---------footer------->
+<center>
+
+</center>
+
+ <!------Javascript for ToggleMenu----->  
+ <script>
+   var navLinks = doccument.getElementById("navLinks");
+   function showMenu() {
+    navLinks.style.rignt="0";
+   }
+   function hideMenu(){
+    navLinks.style.right="-200px";
+   }
+ </script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+*{
+    margin:0;
+    padding:0;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+/*--------header-----*/
+.header{
+ min-height:100vh;
+ width:100%;
+ background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(SMTEC1.png);
+ background-position: center;
+ background-size: cover;
+ position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items:center
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size: 13px;
+}
+ ul li a{
+    color:white;
+    cursor:pointer;
+}
+ ul li a:hover{
+    color:green;
+}
+.text-box{
+    width:90%;
+    color:#fff;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color:#fff;
+}
+.smtec{
+    display: inline-block;
+    text-decoration:none;
+    color:#fff;
+    border:1px solid #fff;
+    padding:12px 34px;
+    font-size:13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.smtec:hover{
+    border:1px solid green;
+    background:green;
+    transition:1s;
+}
+nav .fa{
+    display:none;
+}
+@media(max-width: 700px) {
+    .text-box h1{
+        font-size:20px;
+    }
+    .nav-links ul li{
+        display:block;
+    }
+    .nav-links{
+        position: absolute;
+        background:green;
+        height:100vh;
+        width:200px;
+        top:0;
+        right:-200;
+        text-align: left;
+        z-index:2;
+        transition:1s;
+    }
+    nav.fa{
+        display: block;
+        color:#fff;
+        margin: 10px;
+        font-size:22px;
+        cursor:pointer;
+    }
+    .nav-links ul{
+        padding:30px;
+    }
+}
+
+/*------course-----*/
+.course{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+}
+h1{
+    font-size:36;
+    font-weight:600;
+}
+p{
+    color:#777;
+    font-size:14px;
+    font-weight:300;
+    line-height:22px;
+    padding:10px;
+}
+.course h1{
+    color:black;
+}
+.row{
+    margin-top:5%;
+    display:flex;
+    background: #fff;
+    justify-content:space-between;
+}
+.course-col{
+    flex-basis:19%;
+    background: #fff3f3;
+    align-items: center;
+    border-radius:10px;
+    margin-bottom:5%;
+    padding:20px 12px;
+    box-sizing:border-box;
+    transition:0.5s;
+}
+h3{
+    text-align:center;
+    font-weight:600;
+    margin:10px;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width:700px){
+    .row{
+        flex-direction:column;
+    }
+}
+
+.campus-col{
+    flex-basis: 45%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:10px;
+    margin-bottom:30px;
+    position:relative;
+    overflow:hidden;
+}
+/*----------Labs------*/
+.lab{
+    text-align: center;
+    margin:auto;
+    width:80%;
+    padding-top:30px;
+}
+.lab h2{
+    color:lightgreen;
+}
+
+.row img{
+    height: 300px;
+    width:300px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    padding:30px;
+    margin-top: 5px;
+}
+.row img{
+    opacity:.5;
+    transform:scale(0.8) rotate(-15deg);
+    box-shadow:7px 32px 7px rgba(58,2,55,0.2);
+    border-color: rgb(20,1,19);
+    background-color:white;
+}
+
+/*-------Testimonials------*/
+.testimonials{
+    width:80%;
+    margin:auto;
+    padding-top:100px;
+    text-align: center;
+
+}
+.testimonials img{
+    opacity:.5;
+    transform:scale(0.8);
+    box-shadow:7px 32px 7px rgba(58,2,55,0.2);
+    border-color: rgb(20,1,19);
+    background-color:lightcoral;
+    width:100px;
+    height:100px;
+}
+.testimonial-col{
+    border-radius:10px;
+    margin-bottom:5%;
+    text-align:left;
+    padding:25px;
+    cursor:pointer;
+    display:flex;
+}
+@media(max-width:700px){
+    .testimonial-col {
+        margin-left:0px;
+        margin-right:15px;
+    }
+}
+/*--------call to action------*/
+.cta{
+    margin-top:30px auto;
+    width:80%;
+    background-position:center;
+    background-size:cover;
+    border-radius:10px;
+    text-align:center;
+    padding:100px 0;
+    background:url(graute\ banner.jpg);
+    
+}
+
+.cta img{
+    width:90%;
+    height:100%;
+    margin-left: 35px;
+    color: linear-
+    gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+
+}
+.cta h1{
+    color:white;
+    margin-top:20px;
+}
+.hero-btn{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    border:1px solid green;
+    font-size:20px;
+    position:relative;
+    cursor:pointer;
+    padding:12px 34px;
+}
+.hero-btn:hover{
+    border:1px solid green;
+    background:green;
+    transition:1s;
+}
+.footer h4{
+         margin-top:40px;
+}
